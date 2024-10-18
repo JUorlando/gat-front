@@ -2,11 +2,11 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
   :root {
-    --color-primary: #FF577F;
+    --color-block: #DE5A53;
     --color-primary-focus: #FF427F;
     --color-primary-negative: #59323F;
     --color-grey-4: #141614;
-    --color-grey-3: #212529;
+    --color-grey-3: #1E1E1E;
     --color-grey-2: #343B41;
     --color-grey-1: #868E96;
     --color-grey-0: #EFEFEF;
@@ -32,8 +32,7 @@ export const GlobalStyles = createGlobalStyle`
     overflow-x: hidden;
   }
   body, input, button, textarea {
-    font-family: 'Inter', sans-serif;
-    font-size: 1.6rem;
+    font-family: 'Sora', sans-serif;
   }
 
   h1, h2, h3, h4, h5, h6, strong {

@@ -26,7 +26,7 @@ export const Header = () => {
           <img src={produto} alt="menu de produtos" className="menu-logo" />
           produtos
         </div>
-        <div className="menu-contents">
+        <div className="menu-contents-colect">
           <img src={colecao} alt="menu de coleções" className="menu-logo" />
           coleções
         </div>
