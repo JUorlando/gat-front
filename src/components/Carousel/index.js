@@ -60,28 +60,40 @@ const Carousel = () => {
         />
       </StyledGalleryContainer>
       <BeneficConteiner>
-        <div className="first-div-benefic">
-          <h2>10</h2>
-          <div>
-          <h3>Benefício Principal</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur al muad’ib.</p>
+        <div className="title-container">
+          <div className="first-div-benefic">
+            <h2>10</h2>
+            <div>
+              <h3>Benefício Principal</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur al muad’ib.</p>
+            </div>
           </div>
-        </div>
-        <div className="second-div-benefic">
-          <div>
-            <img src={prize} alt="ícone de benefícios" />
-            <h2>Benefício Secundário</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur al muad’ib.</p>
-          </div>
-          <div>
-            <img src={prize} alt="ícone de benefícios" />
-            <h2>Benefício Secundário</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur al muad’ib.</p>
-          </div>
-          <div>
-            <img src={prize} alt="ícone de benefícios" />
-            <h2>Benefício Secundário</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur al muad’ib.</p>
+          <div className="second-div-benefic">
+            <div className="second-box">
+              <div className="icon-title">
+                <img src={prize} alt="ícone de benefícios" />
+                <h2>Benefício Secundário</h2>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur al muad’ib.</p>
+            </div>
+            <div className="second-box">
+              <div className="icon-title">
+                <img src={prize} alt="ícone de benefícios" />
+                <h2>Benefício Secundário</h2>
+              </div>
+              <div>
+                <p>Lorem ipsum dolor sit amet, consectetur al muad’ib.</p>
+              </div>
+            </div>
+            <div className="second-box">
+              <div className="icon-title">
+                <img src={prize} alt="ícone de benefícios" />
+                <h2>Benefício Secundário</h2>
+              </div>
+              <div>
+                <p>Lorem ipsum dolor sit amet, consectetur al muad’ib.</p>
+              </div>
+            </div>
           </div>
         </div>
         <div className="third-div-benefic">
