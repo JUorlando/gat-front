@@ -85,7 +85,7 @@ const Carousel = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur al muad’ib.</p>
               </div>
             </div>
-            <div className="second-box">
+            <div className="second-box-3">
               <div className="icon-title">
                 <img src={prize} alt="ícone de benefícios" />
                 <h2>Benefício Secundário</h2>

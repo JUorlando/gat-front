@@ -46,6 +46,7 @@ export const BeneficConteiner = styled.div`
   background-color: var(--color-block);
   display: flex;
   flex-direction: column;
+  position: relative;
 
   .title-container {
     width: 100%;
@@ -124,6 +125,16 @@ export const BeneficConteiner = styled.div`
       align-items: center;
     }
 
+    .second-box-3 {
+      width: 239px;
+      height: 129px;
+      gap: 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
     .icon-title {
       width: 100%;
       height: 44px;
@@ -142,13 +153,29 @@ export const BeneficConteiner = styled.div`
     }
   }
 
-  .third-div-benefic{
-    width: 716px;
+  .third-div-benefic {
+    width: 718px;
     height: 52px;
     border: solid 1px var(--color-grey-0);
     display: flex;
     flex-direction: row;
-    margin-left: 400px;
-    margin-bottom: 600px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+
+    position: absolute;
+    top: 168px;
+    left: 388px;
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      h2 {
+        font-size: 14px;
+        font-weight: 500;
+      }
+    }
   }
 `;
